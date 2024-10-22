@@ -1,0 +1,46 @@
+name: real_estate
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"  # Ensure this supports your Dart/Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS styled icons
+  cupertino_icons: ^1.0.5  # Latest version
+
+  # Google Fonts for custom fonts in your app
+  google_fonts: ^6.2.1  # Updated to the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/  # Load all images from this directory
+    - assets/images/house_01.jpg
+    - assets/images/house_04.jpg
+    - assets/images/house_02.jpg
+    - assets/images/house_03.jpg
+    - assets/images/house_05.jpg
+    - assets/images/house_06.jpg
+    - assets/images/house_07.jpg
+    - assets/images/house_08.jpg
+    - assets/images/kitchen.jpg
+    - assets/images/bath_room.jpg
+    - assets/images/swimming_pool.jpg
+    - assets/images/bed_room.jpg
+    - assets/images/living_room.jpg
+    - assets/images/kitchen.jpg
+    - assets/images/bath_room.jpg
+    - assets/images/swimming_pool.jpg
+    - assets/images/bed_room.jpg
+    - assets/images/living_room.jpg
