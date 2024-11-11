@@ -1,6 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:real_estate/data.dart';  // Make sure Property and getPropertyList are here
-import 'package:real_estate/detail.dart';  // Ensure the Detail page is imported
+import 'package:real_estate/data.dart'; // Ensure Property and getPropertyList are defined here
+import 'package:real_estate/detail.dart';
+import 'package:real_estate/drawer.dart'; // Ensure the Detail page is imported
 
 class Search extends StatefulWidget {
   @override
@@ -16,13 +18,7 @@ class _SearchState extends State<Search> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         centerTitle: true,
-        leading:IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {
-            // Open the Drawer
-            Scaffold.of(context).openDrawer();
-          },
-        ),
+        // Add Drawer button to AppBar
 
         title: Text(
           "Chaudhary RealEstate",
@@ -34,12 +30,12 @@ class _SearchState extends State<Search> {
         ),
       ),
       backgroundColor: Colors.white,
+      // Add the drawer to the Scaffold
+      drawer: LeftDrawer(),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Title: "Chaudhary RealEstate"
-
-
           Padding(
             padding: EdgeInsets.only(top: 16, left: 24, right: 24, bottom: 16),
             child: Container(
@@ -68,7 +64,6 @@ class _SearchState extends State<Search> {
               ),
             ),
           ),
-
           Padding(
             padding: EdgeInsets.only(right: 24, left: 24, top: 24, bottom: 12),
             child: Row(
