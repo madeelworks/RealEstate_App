@@ -13,25 +13,32 @@ class _SearchState extends State<Search> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        centerTitle: true,
+        leading:IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: () {
+            // Open the Drawer
+            Scaffold.of(context).openDrawer();
+          },
+        ),
+
+        title: Text(
+          "Chaudhary RealEstate",
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,  // White text
+          ),
+        ),
+      ),
       backgroundColor: Colors.white,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Title: "Chaudhary RealEstate"
-          Container(
-            padding: EdgeInsets.symmetric(vertical: 16),
-            color: Colors.blue,  // Blue background
-            child: Center(
-              child: Text(
-                "Chaudhary RealEstate",
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,  // White text
-                ),
-              ),
-            ),
-          ),
+
 
           Padding(
             padding: EdgeInsets.only(top: 16, left: 24, right: 24, bottom: 16),
