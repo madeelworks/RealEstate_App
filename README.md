@@ -1,16 +1,16 @@
-# untitled7
+# RealEstate_App
 
-A new Flutter project.
+This Flutter app is a real estate application developed using basic widgets, animations, and page routing.
+The app showcases properties with an intuitive user interface, smooth transitions, and an organized structure for easy navigation between different pages.
+![image](https://github.com/user-attachments/assets/583e3a39-dd29-476e-9384-492e996f1101)
+![image](https://github.com/user-attachments/assets/74ddc20b-0230-4347-a437-5137967b33a0)
+![image](https://github.com/user-attachments/assets/a7a01dc5-6edc-467d-b1fe-2725ae65ad9e)
+![image](https://github.com/user-attachments/assets/e1844ff3-9d39-44a1-b13c-2f07a7b00221)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
